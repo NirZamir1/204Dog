@@ -1,0 +1,16 @@
+.ScoreContainer{
+    width: 450px;
+    margin: 20px auto;
+    display: flex;
+    background-color: rgb(248, 188, 110);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    overflow-y: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}

@@ -1,0 +1,62 @@
+.SaveScreenContainer{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: rgb(187, 173, 160,0.85);
+    display: flex;
+    align-items: center;
+    z-index: 5;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: bold;
+    flex-direction: column;
+    font-family: sans-serif;
+    overflow: auto;
+}
+.text{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.input{
+    margin: 50px auto;
+    width: 400px;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #f2b179;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+
+}
+.input::placeholder{
+    color: white;
+}
+.SaveButton{
+    position: relative;
+    font-weight: bold;
+    border: none;
+    color: aliceblue;
+    font-size: 32px;
+    margin-top:  2rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    background-color: #f2b179;;
+    border-radius: 5px;
+    cursor: pointer; 
+    padding: 10px;
+   }
+.SaveButton:hover{
+    background-color: #e69d5e;;
+}
+.ButtonsContainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

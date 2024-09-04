@@ -1,0 +1,15 @@
+.GameContainer{
+    display: block;
+    position: relative;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 15px;
+    background: rgb(187, 173, 160);
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.5);
+}

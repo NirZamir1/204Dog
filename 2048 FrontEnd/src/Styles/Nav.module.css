@@ -1,0 +1,54 @@
+.NavContainer{
+    position: relative;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(248, 188, 110);
+    color: white;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    font-family: sans-serif;
+
+}
+.NavHeader{
+    margin-top: 0;
+    margin-bottom: 40px;
+    position: relative;
+    font-size: 4.5rem;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.ButtonContainer{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    margin-bottom: 30px;
+}
+
+.button{
+    color: white;
+    border: none;
+    font-family: sans-serif;
+    background-color: none;
+    background: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    transition: color 0.2s ease-in-out
+}
+.button:hover{
+    color: rgb(172, 171, 170);
+}
+.button:focus{
+    outline: none;
+}
+.line{
+    margin: 0;
+    display: inline-block;
+    width: 0px;
+    color: white;
+    border-color: white;
+
+}

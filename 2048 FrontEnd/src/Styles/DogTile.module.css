@@ -1,0 +1,10 @@
+.DogImage{
+    width: 100%;
+    height: auto;
+    transition: 
+    transform 0.1s ease-in-out; 
+    overflow: hidden;
+    border: radius 3px;
+    user-select: none;
+
+}

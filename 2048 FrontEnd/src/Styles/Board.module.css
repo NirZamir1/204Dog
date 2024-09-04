@@ -1,0 +1,12 @@
+.BoardContainer{
+    position: absolute;
+    z-index: 1;
+    width: 100%; /* Make BoardContainer fill the width of GameContainer */
+    height: 100%; /* Make BoardContainer fill the height of GameContainer */
+}
+.TileContainer{
+    position: absolute; /* Makes TileContainer the reference point for the tiles */
+    width: 100%;
+    height: 100%;
+    z-index: 2; /* Ensures tiles appear above BoardContainer */
+}

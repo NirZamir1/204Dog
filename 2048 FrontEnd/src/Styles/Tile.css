@@ -1,0 +1,128 @@
+.tile{
+    width: 108px;
+    height: 108px;
+    z-index: 2;
+    border-radius: 3px;
+    position: absolute;
+    transition: 
+    transform 0.1s ease-in; 
+    font-weight: bold;
+    font-size: 2em;
+
+}
+.inner{
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: 
+    transform 0.1s ease-in-out; 
+    overflow: hidden;
+    border-radius:  3px;
+}
+
+
+.merged{
+    z-index: 3;
+}
+
+/* First Row */
+.position-0-0 {
+    transform: translate(-0.875px, -0.875px); /* Centered in the first cell */
+}
+.position-0-1 {
+    transform: translate(calc(106.25px + 15px - 0.875px), -0.875px); /* Centered in the second cell */
+}
+.position-0-2 {
+    transform: translate(calc((106.25px + 15px) * 2 - 0.875px), -0.875px); /* Centered in the third cell */
+}
+.position-0-3 {
+    transform: translate(calc((106.25px + 15px) * 3 - 0.875px), -0.875px); /* Centered in the fourth cell */
+}
+
+/* Second Row */
+.position-1-0 {
+    transform: translate(-0.875px, calc(106.25px + 15px - 0.875px)); /* Centered in the first cell of the second row */
+}
+.position-1-1 {
+    transform: translate(calc(106.25px + 15px - 0.875px), calc(106.25px + 15px - 0.875px)); /* Centered in the second cell of the second row */
+}
+.position-1-2 {
+    transform: translate(calc((106.25px + 15px) * 2 - 0.875px), calc(106.25px + 15px - 0.875px)); /* Centered in the third cell of the second row */
+}
+.position-1-3 {
+    transform: translate(calc((106.25px + 15px) * 3 - 0.875px), calc(106.25px + 15px - 0.875px)); /* Centered in the fourth cell of the second row */
+}
+
+/* Third Row */
+.position-2-0 {
+    transform: translate(-0.875px, calc((106.25px + 15px) * 2 - 0.875px)); /* Centered in the first cell of the third row */
+}
+.position-2-1 {
+    transform: translate(calc(106.25px + 15px - 0.875px), calc((106.25px + 15px) * 2 - 0.875px)); /* Centered in the second cell of the third row */
+}
+.position-2-2 {
+    transform: translate(calc((106.25px + 15px) * 2 - 0.875px), calc((106.25px + 15px) * 2 - 0.875px)); /* Centered in the third cell of the third row */
+}
+.position-2-3 {
+    transform: translate(calc((106.25px + 15px) * 3 - 0.875px), calc((106.25px + 15px) * 2 - 0.875px)); /* Centered in the fourth cell of the third row */
+}
+
+/* Fourth Row */
+.position-3-0 {
+    transform: translate(-0.875px, calc((106.25px + 15px) * 3 - 0.875px)); /* Centered in the first cell of the fourth row */
+}
+.position-3-1 {
+    transform: translate(calc(106.25px + 15px - 0.875px), calc((106.25px + 15px) * 3 - 0.875px)); /* Centered in the second cell of the fourth row */
+}
+.position-3-2 {
+    transform: translate(calc((106.25px + 15px) * 2 - 0.875px), calc((106.25px + 15px) * 3 - 0.875px)); /* Centered in the third cell of the fourth row */
+}
+.position-3-3 {
+    transform: translate(calc((106.25px + 15px) * 3 - 0.875px), calc((106.25px + 15px) * 3 - 0.875px)); /* Centered in the fourth cell of the fourth row */
+}
+
+.tile-2 {
+  --background-color: #f1d6bb;
+}
+.tile-4 {
+  --background-color: #ddcba9;
+}
+.tile-8 {
+  --background-color: #f2b179;
+    color: #f9f6f2;
+}
+.tile-16 {
+  --background-color: #f59563;
+    color: #f9f6f2;
+}
+.tile-32 {
+  --background-color: #f67c5f;
+    color: #f9f6f2;
+}
+.tile-64 {
+  --background-color: #f65e3b;
+    color: #f9f6f2;
+}
+.tile-128 {
+  --background-color: #edcf72;
+    color: #f9f6f2;
+}
+.tile-256 {
+  --background-color: #edcc61;
+    color: #f9f6f2;
+}
+.tile-512 {
+  --background-color: #edc850;
+    color: #f9f6f2;
+}
+.tile-1024 {
+   --background-color: #edc53f;
+    color: #f9f6f2;
+}
+.tile-2048 {
+  --background-color: #edc22e;
+    color: #f9f6f2;
+}
