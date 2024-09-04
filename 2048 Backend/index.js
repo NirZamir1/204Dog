@@ -9,7 +9,7 @@ import Score from "./Models/score.model.js";
 import apiRouter from "./Routes/apiRoute.js";
 import path from "path";
 const app = express();
-app.use(express.static(path.join("D:/2048/2048 Frontend", "dist")));
+app.use(express.static(path.join(process.env.PATH_TO_INDEX, "dist")));
 app.use(cors());
 app.use(express.json());
 app.use("/api", apiRouter);
@@ -21,6 +21,6 @@ mongoose
 
 app.listen(3000, () => console.log("listening on port 3000"));
 app.get("*", (req, res) => {
-  res.sendFile(path.join("D:/2048/2048 Frontend", "dist", "index.html"));
-  console.log(path.join("D:/2048/2048 Frontend", "dist", "index.html"));
+  res.sendFile(path.join(process.env.PATH_TO_INDEX, "dist", "index.html"));
+  console.log(path.join(process.env.PATH_TO_INDEX, "dist", "index.html"))
 });
